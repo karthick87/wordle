@@ -27,5 +27,4 @@ jobs:
         cache: 'npm'
     - run: |
         npm install
-        export PATH=$PATH:/opt/hostedtoolcache/node/14.19.1/x64/bin
-        live-server build
+        /opt/hostedtoolcache/node/14.19.1/x64/bin/live-server build
