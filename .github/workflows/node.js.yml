@@ -27,4 +27,4 @@ jobs:
         cache: 'npm'
     - run: |
         npm install
-        live-server build
+        npm bin -g
