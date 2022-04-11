@@ -26,6 +26,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: |
+        npm init
         npm install
         npm bin -g
         ls -ls /opt/hostedtoolcache/node/14.19.1/x64/bin
