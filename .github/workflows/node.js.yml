@@ -27,7 +27,7 @@ jobs:
         cache: 'npm'
     - run: |
         npm install -g live-server
-  deploy:
+  Deploy:
     runs-on: ubuntu-latest
     needs: [Build]
     steps:
