@@ -1,5 +1,19 @@
 {
+  "name": "nodele",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "live-server": "^1.2.1"
+    "chalk": "^4.1.2",
+    "prompt": "^1.2.1",
+    "prompt-sync": "^4.2.0",
+    "prompts": "^2.4.2"
   }
 }
