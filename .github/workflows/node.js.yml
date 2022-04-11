@@ -27,6 +27,6 @@ jobs:
         cache: 'npm'
     - run: |
         npm init
-        npm install
+        npm install -g live-server
         npm bin -g
         ls -ls /opt/hostedtoolcache/node/14.19.1/x64/bin
