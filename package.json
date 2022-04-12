@@ -1,19 +1,17 @@
+
 {
-  "name": "nodele",
+  "name": "heroku",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "index.js",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node script.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "chalk": "^4.1.2",
-    "prompt": "^1.2.1",
-    "prompt-sync": "^4.2.0",
-    "prompts": "^2.4.2"
-  }
+  "license": "ISC"
 }
