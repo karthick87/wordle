@@ -286,5 +286,6 @@ export const WORDS = [
     'keg',
     'leg',
     'aim',
-    'mam'
+    'mam',
+    'gas'
   ]
