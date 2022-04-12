@@ -12,6 +12,7 @@ jobs:
     - name: Deploy to Heroku
       uses: AkhileshNS/heroku-deploy@v3.12.12
       with:
+        args: "run bash -a wordleforvk"
         heroku_api_key: ${{secrets.HEROKU_API_KEY}}
         heroku_email: ${{secrets.HEROKU_EMAIL}}
         heroku_app_name: ${{secrets.HEROKU_APP}}
