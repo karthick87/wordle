@@ -9,6 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - run: git config user.email "getyourkarthick@gmail.com" && git config user.name "karthick" && git add -A && git commit -m "Updated code"
     - name: Deploy to Heroku
       uses: AkhileshNS/heroku-deploy@v3.12.12
       with:
